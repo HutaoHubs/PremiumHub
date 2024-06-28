@@ -35,7 +35,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/HutaoHubs/OPMM2Hutao
 Tab:AddButton({
 	Name = "Premium Build A Boat For Treasure",
 	Callback = function()
- 
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/HutaoHubs/PremiumBABFT/main/BABFT.lua'),true))()
+			
       		print("button pressed")
   	end    
 })
